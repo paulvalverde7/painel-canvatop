@@ -2,13 +2,12 @@
   "name": "painel-canvatop",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.5",
-    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
     "recharts": "^2.8.0"
